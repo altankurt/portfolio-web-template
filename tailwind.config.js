@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        fontFamily: ["IBM Plex Sans", "sans-serif"],
+      },
+
+      colors: {
+        bgPrimary: "#FFFFFF",
+        bgSecondary: "#141313",
+      },
+    },
   },
   plugins: [],
 };
