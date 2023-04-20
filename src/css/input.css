@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .linear-1 {
+    @apply bg-gradient-to-r from-amber-400 via-red-400 to-fuchsia-400;
+  }
+}
