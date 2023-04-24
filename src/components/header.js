@@ -13,14 +13,14 @@ function header() {
         </div>
         <!-- menu-items -->
         <div class="flex flex-col uppercase sm:text-xl xl:text-2xl">
-          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="#">home</a>
+          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="index.html">home</a>
           <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/src/pages/about.html">about</a>
-          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="#"
+          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/src/pages/services.html"
             >services</a
           >
-          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="#">works</a>
-          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="#">blogs</a>
-          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="#"
+          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/src/pages/works.html">works</a>
+          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/src/pages/blogs.html">blogs</a>
+          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/src/pages/contact.html"
             >contact</a
           >
         </div>
