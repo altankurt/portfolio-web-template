@@ -9,11 +9,11 @@ function header() {
       <div class="flex flex-col space-y-12">
         <!-- logo -->
         <div>
-          <img src="./public/assets/icons/Logo.svg" alt="logo" />
+          <img src="/public/assets/icons/Logo.svg" alt="logo" />
         </div>
         <!-- menu-items -->
         <div class="flex flex-col uppercase sm:text-xl xl:text-2xl">
-          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="index.html">home</a>
+          <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/index.html">home</a>
           <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/src/pages/about.html">about</a>
           <a class="w-fit sm:py-1 md:py-1.5 lg:py-2.5" href="/src/pages/services.html"
             >services</a
@@ -31,17 +31,17 @@ function header() {
           <div
             class="flex items-center justify-center rounded-full bg-white sm:h-8 sm:w-8 lg:h-10 lg:w-10"
           >
-            <img src="./public/assets/icons/behance.svg" alt="behance" />
+            <img src="/public/assets/icons/behance.svg" alt="behance" />
           </div>
           <div
             class="my-3 flex items-center justify-center rounded-full bg-white sm:h-8 sm:w-8 lg:h-10 lg:w-10"
           >
-            <img src="./public/assets/icons/dribbble.svg" alt="dribbble" />
+            <img src="/public/assets/icons/dribbble.svg" alt="dribbble" />
           </div>
           <div
             class="flex items-center justify-center rounded-full bg-white sm:h-8 sm:w-8 lg:h-10 lg:w-10"
           >
-            <img src="./public/assets/icons/instagram.svg" alt="instagram" />
+            <img src="/public/assets/icons/instagram.svg" alt="instagram" />
           </div>
         </div>
         <!-- copyright -->
