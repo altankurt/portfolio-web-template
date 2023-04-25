@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
-  .linear-1 {
-    @apply bg-gradient-to-r from-amber-400 via-red-400 to-fuchsia-400;
+  .bg-gradient {
+    @apply bg-gradient-to-r from-fuchsia-400 via-red-400 to-amber-400;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-l from-amber-400 via-red-400 to-fuchsia-400 bg-clip-text text-transparent;
   }
 }
 
