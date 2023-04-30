@@ -37,7 +37,7 @@
 
 @layer utilities {
   .contact-info-anchor {
-    @apply flex w-40 text-lg font-bold;
+    @apply flex w-40 text-lg font-bold text-primary;
   }
 }
 
@@ -49,12 +49,18 @@
 
 @layer utilities {
   .experience-title {
-    @apply font-bold italic leading-5;
+    @apply font-bold italic leading-5 text-primary;
   }
 }
 
 @layer utilities {
   .experience-span {
     @apply text-gradient pr-3 text-5xl font-bold leading-10;
+  }
+}
+
+@layer utilities {
+  .experience-text {
+    @apply text-lg leading-6 text-primary;
   }
 }
