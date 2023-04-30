@@ -21,7 +21,7 @@
       <!-- welcome-section -->
       <main class="flex w-screen items-center justify-evenly">
         <!-- presentation -->
-        <article class="flex flex-col">
+        <article class="flex flex-col text-primary">
           <section>
             <p class="pb-4 text-lg font-bold italic leading-6">
               Nice to meet you!
@@ -74,30 +74,62 @@
               </button>
             </address>
             <address class="contact-info-address pb-8">
-              <button class="flex h-10 w-56 items-center justify-center italic">
-                <div
-                  class="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-primary bg-opacity-5"
-                >
+              <button class="contact-info-button">
+                <div class="contact-info-button-div">
                   <img src="/public/assets/icons/mail.svg" alt="mail-icon" />
                 </div>
-                <a
-                  class="flex w-40 text-lg font-bold"
-                  href="mailto:hi@jacobjones.org"
+                <a class="contact-info-anchor" href="mailto:hi@jacobjones.org"
                   >hi@jacobjones.org
                 </a>
               </button>
-              <button class="flex h-10 w-56 items-center justify-center italic">
-                <div
-                  class="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-primary bg-opacity-5"
-                >
+              <button class="contact-info-button">
+                <div class="contact-info-button-div">
                   <img
                     src="/public/assets/icons/places.svg"
                     alt="places-icon"
                   />
                 </div>
-                <a class="flex w-40 text-lg font-bold" href="#">UK, London </a>
+                <a class="contact-info-anchor" href="#">UK, London </a>
               </button>
             </address>
+          </section>
+          <!-- information -->
+          <section class="flex">
+            <div>
+              <div class="information">
+                <span class="information-span">10+</span>
+                <h3 class="information-title">Years<br />experience...</h3>
+              </div>
+              <p class="information-text w-68">
+                Hello there! My name is Jacob Jones. I am a web designer &
+                developer, and I'm very passionate and dedicated to my work.
+              </p>
+            </div>
+            <div>
+              <div class="information">
+                <span class="information-span">14</span>
+                <h3 class="information-title">Clients<br />Worldwide...</h3>
+              </div>
+              <p class="information-text w-64">
+                With 10 + years experience as a professional a graphic designer,
+                I have acquired the skills and knowledge necessary to make your
+                project a success.
+              </p>
+            </div>
+          </section>
+          <!-- quotes -->
+          <section
+            class="mt-16 flex bg-primary text-xl font-semibold italic leading-8 text-white"
+          >
+            <img
+              class="py-10 pl-10 pr-3"
+              src="/public/assets/icons/quotes.svg"
+              alt="quotes-icon"
+            />
+            <blockquote class="py-10 pr-10">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+              elit. Faucibus sed sit ultrices et sed metus sollicitudin.”
+            </blockquote>
           </section>
         </article>
       </main>

@@ -37,24 +37,30 @@
 
 @layer utilities {
   .contact-info-anchor {
-    @apply flex w-40 text-lg font-bold;
+    @apply flex w-40 text-lg font-bold text-primary;
   }
 }
 
 @layer utilities {
-  .experience {
+  .information {
     @apply mb-5 mr-8 mt-12 flex h-12 w-68;
   }
 }
 
 @layer utilities {
-  .experience-title {
-    @apply font-bold italic leading-5;
+  .information-title {
+    @apply font-bold italic leading-5 text-primary;
   }
 }
 
 @layer utilities {
-  .experience-span {
+  .information-span {
     @apply text-gradient pr-3 text-5xl font-bold leading-10;
+  }
+}
+
+@layer utilities {
+  .information-text {
+    @apply text-lg leading-6 text-primary;
   }
 }
