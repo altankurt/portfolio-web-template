@@ -16,3 +16,45 @@
     @apply my-5 flex h-10 w-10 items-center justify-center rounded-full border-2 to-primary;
   }
 }
+
+@layer utilities {
+  .contact-info-address {
+    @apply flex text-lg font-bold italic leading-6;
+  }
+}
+
+@layer utilities {
+  .contact-info-button {
+    @apply flex h-10 w-56 items-center justify-center italic;
+  }
+}
+
+@layer utilities {
+  .contact-info-button-div {
+    @apply mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-primary bg-opacity-5;
+  }
+}
+
+@layer utilities {
+  .contact-info-anchor {
+    @apply flex w-40 text-lg font-bold;
+  }
+}
+
+@layer utilities {
+  .experience {
+    @apply mb-5 mr-8 mt-12 flex h-12 w-68;
+  }
+}
+
+@layer utilities {
+  .experience-title {
+    @apply font-bold italic leading-5;
+  }
+}
+
+@layer utilities {
+  .experience-span {
+    @apply text-gradient pr-3 text-5xl font-bold leading-10;
+  }
+}

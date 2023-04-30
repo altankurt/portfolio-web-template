@@ -9,7 +9,9 @@ function header() {
       <div class="flex flex-col space-y-12">
         <!-- logo -->
         <div>
-          <img src="/public/assets/icons/Logo.svg" alt="logo" />
+          <img class="cursor-pointer" 
+          onclick="location.href='/index.html';" 
+          src="/public/assets/icons/Logo.svg" alt="logo" />
         </div>
         <!-- menu-items -->
         <div class="flex flex-col uppercase sm:text-xl xl:text-2xl">
