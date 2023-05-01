@@ -9,10 +9,12 @@ module.exports = {
 
       colors: {
         primary: "#141313",
+        highlight: "#B86ADF",
       },
 
       width: {
         68: "17rem",
+        76: "19rem",
         132: "33rem",
       },
     },
