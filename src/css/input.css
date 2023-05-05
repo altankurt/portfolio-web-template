@@ -64,3 +64,27 @@
     @apply text-lg leading-6 text-primary;
   }
 }
+
+@layer utilities {
+  .experience-job-title {
+    @apply text-lg font-bold italic leading-6;
+  }
+}
+
+@layer utilities {
+  .experience-job {
+    @apply text-base font-medium;
+  }
+}
+
+@layer utilities {
+  .experience {
+    @apply text-3xl font-bold leading-10;
+  }
+}
+
+@layer utilities {
+  .experience-border {
+    @apply border-b-1 opacity-20;
+  }
+}

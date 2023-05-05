@@ -16,6 +16,15 @@ module.exports = {
         68: "17rem",
         76: "19rem",
         132: "33rem",
+        136: "34rem",
+      },
+
+      margin: {
+        30: "7.5rem",
+      },
+
+      borderWidth: {
+        1: "1px",
       },
     },
   },
