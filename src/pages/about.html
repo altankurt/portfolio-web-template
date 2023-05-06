@@ -16,11 +16,11 @@
     <title>Web Portfolio</title>
   </head>
   <body class="font-fontFamily">
-    <div class="container relative flex h-screen min-w-full">
+    <div class="relative flex">
       <div id="header-component"></div>
       <main class="w-screen">
         <!-- welcome-section -->
-        <article class="flex items-center justify-evenly">
+        <article class="ml-3 flex items-center justify-evenly pb-16 pt-24">
           <!-- presentation -->
           <article class="flex flex-col text-primary">
             <section>
@@ -144,11 +144,59 @@
           </article>
         </article>
         <!-- experience -->
-        <article class="flex items-center justify-evenly">
+        <article class="bg-gradient mr-52 mt-12 flex justify-evenly text-white">
           <!-- exp-content -->
-          <section></section>
+          <section class="mb-52 mt-30">
+            <p class="mb-4 text-lg font-semibold italic leading-6">
+              Experience
+            </p>
+            <h1 class="text-5xl font-bold leading-tight">MY EXPERIENCE</h1>
+            <p class="mb-12 mt-5 w-80 text-lg leading-7">
+              Hey there! I'm Jacob Jones, a web designer and developer who's
+              passionate and dedicated to my work.
+            </p>
+            <button
+              class="mt-12 flex h-14 w-68 items-center justify-center bg-primary text-white"
+            >
+              <p class="pr-2">Download my resume</p>
+              <div class="bg-gradient flex h-6 w-6 items-center justify-center">
+                <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
+              </div>
+            </button>
+          </section>
           <!-- exp-list -->
-          <section></section>
+          <section class="my-30 w-136">
+            <div class="mb-10">
+              <div class="flex justify-between">
+                <h3 class="experience-job-title">-2018 - Present</h3>
+                <p class="experience-job">-Rolling Thunder</p>
+              </div>
+              <div class="experience">
+                <p class="mb-5 mt-3">Lead UI/UX Designer</p>
+              </div>
+              <div class="experience-border"></div>
+            </div>
+            <div class="mb-10">
+              <div class="flex justify-between">
+                <h3 class="experience-job-title">--2018 - 2010</h3>
+                <p class="experience-job">-Locost Accessories</p>
+              </div>
+              <div class="experience">
+                <p class="mb-5 mt-3">Senior UI/UX Designer</p>
+              </div>
+              <div class="experience-border"></div>
+            </div>
+            <div class="mb-10">
+              <div class="flex justify-between">
+                <h3 class="experience-job-title">-2008 - 2006</h3>
+                <p class="experience-job">-Sagebrush</p>
+              </div>
+              <div class="experience">
+                <p class="mb-5 mt-3">Junior UI/UX Designer</p>
+              </div>
+              <div class="experience-border"></div>
+            </div>
+          </section>
         </article>
       </main>
     </div>

@@ -554,9 +554,46 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-30 {
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-52 {
+  margin-bottom: 13rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mr-12 {
@@ -567,8 +604,12 @@ video {
   margin-right: 0.75rem;
 }
 
-.mr-8 {
-  margin-right: 2rem;
+.mr-52 {
+  margin-right: 13rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
 }
 
 .mt-12 {
@@ -579,36 +620,20 @@ video {
   margin-top: 4rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-30 {
+  margin-top: 7.5rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
-.mr-16 {
-  margin-right: 4rem;
-}
-
-.mr-7 {
-  margin-right: 1.75rem;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
-.block {
-  display: block;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .flex {
@@ -647,6 +672,10 @@ video {
   width: 33rem;
 }
 
+.w-136 {
+  width: 34rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -659,8 +688,12 @@ video {
   width: 17rem;
 }
 
-.w-\[304px\] {
-  width: 304px;
+.w-76 {
+  width: 19rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .w-auto {
@@ -674,14 +707,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-76 {
-  width: 19rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .min-w-full {
@@ -764,22 +789,17 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-5 {
   --tw-bg-opacity: 0.05;
-}
-
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .pb-4 {
@@ -808,6 +828,10 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-3 {
@@ -870,6 +894,10 @@ video {
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .leading-8 {
@@ -1036,6 +1064,30 @@ video {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(20 19 19 / var(--tw-text-opacity));
+}
+
+.experience-job-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
+.experience-job {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.experience {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.experience-border {
+  border-bottom-width: 1px;
+  opacity: 0.2;
 }
 
 @media (min-width: 640px) {
