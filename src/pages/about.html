@@ -45,14 +45,21 @@
               </p>
               <button class="flex items-end">
                 <a
-                  class="h-6 pr-2 text-lg font-medium underline"
+                  class="flex h-6 pr-2 text-lg font-medium underline"
                   href="https://drive.google.com/file/d/1WF8_5LCCERIxqSFhkP1RLDG8VSqZf5ur/view?usp=share_link"
                   download="jj-cv.pdf"
-                  >Download CV
+                  target="_blank"
+                >
+                  <p class="pr-2">Download CV</p>
+                  <div
+                    class="flex h-6 w-6 items-center justify-center bg-black"
+                  >
+                    <img
+                      src="/public/assets/icons/arrow.svg"
+                      alt="arrow-icon"
+                    />
+                  </div>
                 </a>
-                <div class="flex h-6 w-6 items-center justify-center bg-black">
-                  <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
-                </div>
               </button>
             </section>
           </article>
@@ -155,13 +162,20 @@
               Hey there! I'm Jacob Jones, a web designer and developer who's
               passionate and dedicated to my work.
             </p>
-            <button
-              class="mt-12 flex h-14 w-68 items-center justify-center bg-primary text-white"
-            >
-              <p class="pr-2">Download my resume</p>
-              <div class="bg-gradient flex h-6 w-6 items-center justify-center">
-                <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
-              </div>
+            <button class="flex">
+              <a
+                class="flex h-14 w-68 items-center justify-center bg-primary text-white"
+                href="https://drive.google.com/file/d/1WF8_5LCCERIxqSFhkP1RLDG8VSqZf5ur/view?usp=share_link"
+                download="jj-cv.pdf"
+                target="_blank"
+              >
+                <p class="pr-2">Download my resume</p>
+                <div
+                  class="bg-gradient flex h-6 w-6 items-center justify-center"
+                >
+                  <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
+                </div>
+              </a>
             </button>
           </section>
           <!-- exp-list -->
