@@ -7,6 +7,10 @@ module.exports = {
         fontFamily: ["IBM Plex Sans", "sans-serif"],
       },
 
+      fontSize: {
+        "3.5xl": "2rem",
+      },
+
       colors: {
         primary: "#141313",
         highlight: "#B86ADF",
@@ -21,6 +25,7 @@ module.exports = {
 
       margin: {
         30: "7.5rem",
+        70: "17.5rem",
       },
 
       borderWidth: {
