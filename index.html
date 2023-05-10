@@ -22,25 +22,25 @@
       <main class="flex w-screen items-center justify-evenly">
         <!-- content -->
         <section class="flex flex-col">
-          <p class="text-8xl">
+          <h1>
             MY NAME <br />IS
             <span class="font-bold"
               >JACOB <br />
               JONES...</span
             >
-          </p>
-          <p class="mt-5 text-3xl leading-8">
+          </h1>
+          <h4 class="mb-12 mt-5 leading-8">
             <span class="font-bold italic">Product Designer</span> based in
             <span class="font-bold italic">London</span>
-          </p>
+          </h4>
           <!-- contact-button -->
-          <button
-            class="mt-12 flex h-14 w-68 items-center justify-center bg-primary text-white"
-          >
-            <p class="pr-2">Let's talk with me</p>
-            <div class="bg-gradient flex h-6 w-6 items-center justify-center">
-              <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
-            </div>
+          <button class="flex">
+            <a class="btn-anchor" href="mailto:hi@jacobjones.org">
+              <p class="pr-2">Let's talk with me</p>
+              <div class="btn-icon">
+                <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
+              </div>
+            </a>
           </button>
           <!-- contact-info -->
           <address class="flex w-auto pt-16">
@@ -54,7 +54,7 @@
                   alt="phone-icon"
                 />
               </div>
-              <a class="flex text-lg font-bold" href="tel:+770224440505"
+              <a class="home-contact" href="tel:+770224440505"
                 >+77 022 444 05 05
               </a>
             </button>
@@ -68,7 +68,7 @@
                   alt="mail-icon"
                 />
               </div>
-              <a class="flex text-lg font-bold" href="mailto:hi@jacobjones.org"
+              <a class="home-contact" href="mailto:hi@jacobjones.org"
                 >hi@jacobjones.org
               </a>
             </button>

@@ -2,88 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-8xl;
+  }
+  h2 {
+    @apply text-5xl;
+  }
+  h3 {
+    @apply text-3.5xl;
+  }
+  h4 {
+    @apply text-3xl;
+  }
+  h5 {
+    @apply text-2xl;
+  }
+  h6 {
+    @apply text-lg;
+  }
+}
+
+@layer components {
+  .btn-anchor {
+    @apply flex h-14 w-68 items-center justify-center bg-primary text-white;
+  }
+  .btn-icon {
+    @apply bg-gradient flex h-6 w-6 items-center justify-center;
+  }
+
+  .accordion {
+    @apply mb-10 flex justify-between border-b-2 pb-6;
+  }
+  .accordion-title {
+    @apply font-bold leading-normal;
+  }
+
+  .accordion-context {
+    @apply flex w-136 justify-between;
+  }
+
+  .accordion-toggle {
+    @apply hidden w-136;
+  }
+}
+
 @layer utilities {
+  .home-contact {
+    @apply flex text-lg font-bold;
+  }
   .bg-gradient {
     @apply bg-gradient-to-r from-fuchsia-400 via-red-400 to-amber-400;
   }
   .text-gradient {
     @apply bg-gradient-to-l from-amber-400 via-red-400 to-fuchsia-400 bg-clip-text text-transparent;
   }
-}
-
-@layer utilities {
   .circle {
     @apply my-5 flex h-10 w-10 items-center justify-center rounded-full border-2 to-primary;
   }
-}
-
-@layer utilities {
   .contact-info-address {
     @apply flex text-lg font-bold italic leading-6;
   }
-}
-
-@layer utilities {
   .contact-info-button {
     @apply flex h-10 w-56 items-center justify-center italic;
   }
-}
-
-@layer utilities {
   .contact-info-button-div {
     @apply mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-primary bg-opacity-5;
   }
-}
-
-@layer utilities {
   .contact-info-anchor {
     @apply flex w-40 text-lg font-bold text-primary;
   }
-}
-
-@layer utilities {
   .information {
     @apply mb-5 mr-8 mt-12 flex h-12 w-68;
   }
-}
-
-@layer utilities {
   .information-title {
     @apply font-bold italic leading-5 text-primary;
   }
-}
-
-@layer utilities {
   .information-span {
     @apply text-gradient pr-3 text-5xl font-bold leading-10;
   }
-}
-
-@layer utilities {
   .information-text {
     @apply text-lg leading-6 text-primary;
   }
-}
-
-@layer utilities {
   .experience-job-title {
     @apply text-lg font-bold italic leading-6;
   }
-}
-
-@layer utilities {
   .experience-job {
     @apply text-base font-medium;
   }
-}
-
-@layer utilities {
   .experience {
     @apply text-3xl font-bold leading-10;
   }
-}
-
-@layer utilities {
   .experience-border {
     @apply border-b-1 opacity-20;
   }
