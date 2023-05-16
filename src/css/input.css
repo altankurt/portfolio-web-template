@@ -42,8 +42,8 @@
     @apply flex w-136 justify-between;
   }
 
-  .accordion-toggle {
-    @apply hidden w-136;
+  .toggle {
+    @apply w-136;
   }
 }
 
