@@ -628,8 +628,7 @@ h6 {
   justify-content: space-between;
 }
 
-.accordion-toggle {
-  display: none;
+.toggle {
   width: 34rem;
 }
 
