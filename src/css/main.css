@@ -644,9 +644,9 @@ h6 {
   top: 0px;
 }
 
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
+.mx-48 {
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 .my-3 {
@@ -667,10 +667,6 @@ h6 {
   margin-bottom: 3rem;
 }
 
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -681,10 +677,6 @@ h6 {
 
 .mb-52 {
   margin-bottom: 13rem;
-}
-
-.ml-28 {
-  margin-left: 7rem;
 }
 
 .ml-3 {
@@ -713,10 +705,6 @@ h6 {
 
 .mt-16 {
   margin-top: 4rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .mt-3 {
@@ -1154,7 +1142,6 @@ h6 {
 }
 
 .experience-job-title {
-  font-size: 1.125rem;
   font-weight: 700;
   font-style: italic;
   line-height: 1.5rem;
@@ -1175,6 +1162,28 @@ h6 {
 .experience-border {
   border-bottom-width: 1px;
   opacity: 0.2;
+}
+
+.headlines {
+  margin-bottom: 3.5rem;
+  margin-left: 7rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-headline {
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
+.works {
+  margin-right: 2rem;
+  display: flex;
+  width: 13rem;
+  flex-direction: column;
 }
 
 @media (min-width: 640px) {
