@@ -85,7 +85,7 @@
     @apply text-lg leading-6 text-primary;
   }
   .experience-job-title {
-    @apply text-lg font-bold italic leading-6;
+    @apply font-bold italic leading-6;
   }
   .experience-job {
     @apply text-base font-medium;
@@ -95,5 +95,20 @@
   }
   .experience-border {
     @apply border-b-1 opacity-20;
+  }
+  .headlines {
+    @apply mb-14 ml-28 mt-20 flex flex-col;
+  }
+  .top-headline {
+    @apply pb-4 font-semibold italic leading-6;
+  }
+  .works {
+    @apply mr-8 flex w-52 flex-col;
+  }
+  .works-arrow {
+    @apply flex h-16 w-16 items-center justify-center;
+  }
+  .works-section {
+    @apply flex justify-between font-bold;
   }
 }
