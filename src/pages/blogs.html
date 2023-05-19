@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link to the google fonts -->
-    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="shortcut icon" href="/public/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,5 +15,20 @@
     />
     <title>Web Portfolio</title>
   </head>
-  <body></body>
+  <body class="font-fontFamily">
+    <div class="relative flex">
+      <!-- sidebar -->
+      <div id="header-component"></div>
+      <!-- main content -->
+      <main class="container flex w-screen">
+        <!-- headlines -->
+        <article class="headlines">
+          <h6 class="top-headline">Blog</h6>
+          <h2 class="font-bold leading-tight">Read my blog</h2>
+        </article>
+      </main>
+    </div>
+    <script src="/src/components/header.js"></script>
+    <script src="/src/components/app.js"></script>
+  </body>
 </html>
