@@ -451,6 +451,24 @@ h6 {
   line-height: 1.75rem;
 }
 
+input {
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  background-color: inherit;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+textarea {
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  background-color: inherit;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -579,14 +597,21 @@ h6 {
   }
 }
 
+.content-area {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+}
+
 .btn-anchor {
   display: flex;
   height: 3.5rem;
-  width: 17rem;
   align-items: center;
   justify-content: center;
   --tw-bg-opacity: 1;
   background-color: rgb(20 19 19 / var(--tw-bg-opacity));
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -632,6 +657,10 @@ h6 {
   width: 34rem;
 }
 
+.hidden-post {
+  display: none;
+}
+
 .relative {
   position: relative;
 }
@@ -649,6 +678,11 @@ h6 {
   margin-right: 12rem;
 }
 
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -657,6 +691,16 @@ h6 {
 .my-30 {
   margin-top: 7.5rem;
   margin-bottom: 7.5rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .my-auto {
@@ -688,6 +732,10 @@ h6 {
   margin-bottom: 13rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -706,6 +754,10 @@ h6 {
 
 .mr-6 {
   margin-right: 1.5rem;
+}
+
+.mr-9 {
+  margin-right: 2.25rem;
 }
 
 .mt-12 {
@@ -774,6 +826,10 @@ h6 {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .w-76 {
@@ -881,6 +937,11 @@ h6 {
   --tw-bg-opacity: 0.05;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -904,6 +965,10 @@ h6 {
 
 .pl-10 {
   padding-left: 2.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .pr-10 {
@@ -943,6 +1008,11 @@ h6 {
   font-size: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -973,6 +1043,10 @@ h6 {
   font-style: italic;
 }
 
+.not-italic {
+  font-style: normal;
+}
+
 .leading-6 {
   line-height: 1.5rem;
 }
@@ -995,6 +1069,10 @@ h6 {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 
 .tracking-tighter {
@@ -1181,7 +1259,7 @@ h6 {
   opacity: 0.2;
 }
 
-.headlines {
+.titles {
   margin-bottom: 3.5rem;
   margin-left: 7rem;
   margin-top: 5rem;
@@ -1189,11 +1267,16 @@ h6 {
   flex-direction: column;
 }
 
-.top-headline {
+.top-title {
   padding-bottom: 1rem;
   font-weight: 600;
   font-style: italic;
   line-height: 1.5rem;
+}
+
+.main-title {
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .works {
@@ -1215,6 +1298,32 @@ h6 {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+}
+
+.blog-structure {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-post {
+  display: flex;
+  width: 19.688rem;
+  flex-direction: column;
+}
+
+.blog-date {
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
+.blog-title {
+  padding-top: 0.75rem;
+  font-weight: 700;
+  line-height: 1.75rem;
 }
 
 @media (min-width: 640px) {

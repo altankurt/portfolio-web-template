@@ -21,29 +21,38 @@
   h6 {
     @apply text-lg;
   }
+  input {
+    @apply border-b-2 border-white bg-inherit outline-none;
+  }
+  textarea {
+    @apply border-b-2 border-white bg-inherit outline-none;
+  }
 }
 
 @layer components {
+  .content-area {
+    @apply flex w-screen flex-col;
+  }
   .btn-anchor {
-    @apply flex h-14 w-68 items-center justify-center bg-primary text-white;
+    @apply flex h-14 items-center justify-center bg-primary px-6 text-white;
   }
   .btn-icon {
     @apply bg-gradient flex h-6 w-6 items-center justify-center;
   }
-
   .accordion {
     @apply mb-10 flex justify-between border-b-2 pb-6;
   }
   .accordion-title {
     @apply font-bold leading-normal;
   }
-
   .accordion-context {
     @apply flex w-136 justify-between;
   }
-
   .toggle {
     @apply w-136;
+  }
+  .hidden-post {
+    @apply hidden;
   }
 }
 
@@ -96,11 +105,14 @@
   .experience-border {
     @apply border-b-1 opacity-20;
   }
-  .headlines {
+  .titles {
     @apply mb-14 ml-28 mt-20 flex flex-col;
   }
-  .top-headline {
+  .top-title {
     @apply pb-4 font-semibold italic leading-6;
+  }
+  .main-title {
+    @apply font-bold leading-tight;
   }
   .works {
     @apply mr-8 flex w-52 flex-col;
@@ -110,5 +122,17 @@
   }
   .works-section {
     @apply flex justify-between font-bold;
+  }
+  .blog-structure {
+    @apply mx-48 mb-6 flex justify-between;
+  }
+  .blog-post {
+    @apply flex w-78.75 flex-col;
+  }
+  .blog-date {
+    @apply text-lg italic leading-6;
+  }
+  .blog-title {
+    @apply pt-3 font-bold leading-7;
   }
 }
