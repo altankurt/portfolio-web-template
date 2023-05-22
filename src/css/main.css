@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -42,9 +42,11 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -85,7 +87,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -129,7 +131,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -220,9 +223,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -269,7 +272,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -354,7 +357,8 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -469,7 +473,9 @@ textarea {
   outline-offset: 2px;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -479,16 +485,16 @@ textarea {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -496,24 +502,24 @@ textarea {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 ::backdrop {
@@ -526,16 +532,16 @@ textarea {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -543,24 +549,24 @@ textarea {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 .container {
@@ -624,14 +630,15 @@ textarea {
   justify-content: center;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #e879f9 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(232 121 249 / 0)  var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgb(232 121 249 / 0) var(--tw-gradient-from-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to: rgb(248 113 113 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-via-position: ;
+  --tw-gradient-to: rgb(248 113 113 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from),
+    #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
   --tw-gradient-to: #fbbf24 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to-position: ;
 }
 
 .accordion {
@@ -708,6 +715,36 @@ textarea {
   margin-bottom: auto;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.my-28 {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.my-36 {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -732,12 +769,12 @@ textarea {
   margin-bottom: 13rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mr-12 {
@@ -784,6 +821,26 @@ textarea {
   margin-top: 2rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -810,6 +867,10 @@ textarea {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-132 {
@@ -853,12 +914,39 @@ textarea {
   width: 100vw;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .min-w-full {
   min-width: 100%;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.resize-none {
+  resize: none;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .flex-col {
@@ -871,6 +959,10 @@ textarea {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -905,6 +997,22 @@ textarea {
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -913,9 +1021,18 @@ textarea {
   border-right-width: 2px;
 }
 
+.border-dotted {
+  border-style: dotted;
+}
+
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(20 19 19 / var(--tw-border-opacity));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -933,8 +1050,42 @@ textarea {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-indigo-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-5 {
   --tw-bg-opacity: 0.05;
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .px-3 {
@@ -995,6 +1146,14 @@ textarea {
   padding-top: 0.75rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-fontFamily {
   font-family: IBM Plex Sans, sans-serif;
 }
@@ -1021,6 +1180,11 @@ textarea {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -1094,6 +1258,11 @@ textarea {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1112,29 +1281,31 @@ textarea {
 .bg-gradient {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #e879f9 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(232 121 249 / 0)  var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgb(232 121 249 / 0) var(--tw-gradient-from-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to: rgb(248 113 113 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-via-position: ;
+  --tw-gradient-to: rgb(248 113 113 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from),
+    #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
   --tw-gradient-to: #fbbf24 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to-position: ;
 }
 
 .text-gradient {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
   --tw-gradient-from: #fbbf24 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(251 191 36 / 0)  var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgb(251 191 36 / 0) var(--tw-gradient-from-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to: rgb(248 113 113 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-via-position: ;
+  --tw-gradient-to: rgb(248 113 113 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from),
+    #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
   --tw-gradient-to: #e879f9 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to-position: ;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -1149,7 +1320,7 @@ textarea {
   border-radius: 9999px;
   border-width: 2px;
   --tw-gradient-to: #141313 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to-position: ;
 }
 
 .contact-info-address {
@@ -1216,16 +1387,17 @@ textarea {
   line-height: 2.5rem;
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
   --tw-gradient-from: #fbbf24 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(251 191 36 / 0)  var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgb(251 191 36 / 0) var(--tw-gradient-from-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to: rgb(248 113 113 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-via-position: ;
+  --tw-gradient-to: rgb(248 113 113 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from),
+    #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to);
   --tw-gradient-to: #e879f9 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to-position: ;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -1324,6 +1496,26 @@ textarea {
   padding-top: 0.75rem;
   font-weight: 700;
   line-height: 1.75rem;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.hover\:bg-indigo-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
