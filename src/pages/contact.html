@@ -76,6 +76,23 @@
                 required
               />
             </div>
+            <div class="mb-5 flex flex-col">
+              <label for="message">Message</label>
+              <textarea
+                class="scrollbar-hide resize-none"
+                name="message"
+                id="contact-message"
+                cols="75"
+                rows="2"
+              ></textarea>
+            </div>
+            <div class="flex">
+              <label class="flex cursor-pointer">
+                <input class="hidden" type="file" multiple />
+                <img src="/public/assets/icons/attach.svg" alt="attach-icon" />
+                <p class="ml-2 cursor-pointer">Attach File</p>
+              </label>
+            </div>
           </form>
         </article>
       </main>
