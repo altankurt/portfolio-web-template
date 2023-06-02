@@ -2,6 +2,14 @@
 module.exports = {
   content: ["./*.html", "./src/**/*.js", "./src/**/*.html"],
   theme: {
+    screens: {
+      xs: "320px",
+      sm: "480px",
+      md: "720px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       fontFamily: {
         fontFamily: ["IBM Plex Sans", "sans-serif"],
