@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link to the google fonts -->
-    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="shortcut icon" href="/public/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,5 +15,97 @@
     />
     <title>Web Portfolio</title>
   </head>
-  <body></body>
+  <body class="font-fontFamily">
+    <div class="relative flex">
+      <!-- left side navigation -->
+      <nav id="header-component"></nav>
+      <!-- main content -->
+      <main class="flex w-screen items-center justify-center">
+        <article class="mr-9 flex flex-col justify-between">
+          <!-- headlines -->
+          <section>
+            <h6 class="top-title">Contact</h6>
+            <h2 class="main-title">REACH OUT ME</h2>
+          </section>
+          <section class="my-32">
+            <address class="flex flex-col not-italic">
+              <p>
+                249 king Sir, 05th Floor, Ultra House Building, <br />
+                Melboune, VIC 3000, London.
+              </p>
+              <a class="my-6 text-3xl font-bold" href="tel:+770224440505"
+                >+77 022 444 05 05</a
+              >
+              <a class="text-3xl font-bold" href="mailto:hi@jacobjones.org"
+                >hi@jacobjones.org</a
+              >
+            </address>
+          </section>
+          <footer class="font-medium uppercase tracking-tight">
+            <a class="pr-3" href="#">facebook</a>
+            <a class="px-3" href="#">behance</a>
+            <a class="px-3" href="#">instagram</a>
+            <a class="pl-3" href="#">linkedin</a>
+          </footer>
+        </article>
+        <article class="bg-gradient ml-8 px-16 uppercase text-white">
+          <h2 class="my-8 font-bold uppercase">Any Project?</h2>
+          <form
+            class="flex flex-col font-medium"
+            action="/submit-form"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <div class="flex flex-col">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="w-72"
+                id="contact-name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="my-8 flex flex-col">
+              <label for="email">E-mail</label>
+              <input
+                type="text"
+                class="w-72"
+                id="contact-email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="mb-5 flex flex-col">
+              <label for="message">Message</label>
+              <textarea
+                class="scrollbar-hide resize-none"
+                name="message"
+                id="contact-message"
+                cols="75"
+                rows="2"
+              ></textarea>
+            </div>
+            <div class="flex">
+              <label class="flex cursor-pointer">
+                <input class="hidden" type="file" multiple />
+                <img src="/public/assets/icons/attach.svg" alt="attach-icon" />
+                <p class="ml-2 cursor-pointer">Attach File</p>
+              </label>
+            </div>
+            <button type="submit" class="mb-8 mt-20 flex">
+              <a class="btn-anchor" href="#" target="_blank">
+                <p class="pr-2">Submit Now</p>
+                <div class="btn-icon">
+                  <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
+                </div>
+              </a>
+            </button>
+          </form>
+        </article>
+      </main>
+    </div>
+    <script src="/src/components/header.js"></script>
+    <script src="/src/components/app.js"></script>
+  </body>
 </html>

@@ -17,15 +17,127 @@
   </head>
   <body class="font-fontFamily">
     <div class="relative flex">
-      <!-- sidebar -->
-      <aside id="header-component"></aside>
+      <!-- left side navigation -->
+      <nav id="header-component"></nav>
       <!-- main content -->
-      <main class="container flex w-screen">
+      <main class="content-area">
         <!-- headlines -->
-        <article class="headlines">
-          <h6 class="top-headline">Blog</h6>
-          <h2 class="font-bold leading-tight">Read my blog</h2>
+        <article class="titles">
+          <h6 class="top-title">Blog</h6>
+          <h2 class="main-title">Read my blog</h2>
         </article>
+        <!-- blog posts  -->
+        <article class="blog-structure">
+          <section class="blog-post">
+            <a href="#">
+              <!-- cover photo -->
+              <img src="/public/images/blog-pic-1.png" alt="blog-pic" />
+              <div class="my-6">
+                <!-- date -->
+                <time class="blog-date" datetime="2022-07-10"
+                  >10 July, 2022</time
+                >
+                <!-- title -->
+                <h5 class="blog-title">
+                  12 unique example of portfolio websites
+                </h5>
+              </div>
+            </a>
+          </section>
+          <section class="blog-post">
+            <a href="#">
+              <!-- cover photo -->
+              <img src="/public/images/blog-pic-2.png" alt="blog-pic" />
+              <div class="my-6">
+                <!-- date -->
+                <time class="blog-date" datetime="2022-07-10"
+                  >10 July, 2022</time
+                >
+                <!-- title -->
+                <h5 class="blog-title">
+                  Customer Experience: Winning Customers' Hearts with Your Brand
+                </h5>
+              </div>
+            </a>
+          </section>
+          <section class="blog-post">
+            <a href="#">
+              <!-- cover photo -->
+              <img src="/public/images/blog-pic-3.png" alt="blog-pic" />
+              <div class="my-6">
+                <!-- date -->
+                <time class="blog-date" datetime="2022-07-10"
+                  >10 July, 2022</time
+                >
+                <!-- title -->
+                <h5 class="blog-title">
+                  Responsive Design: Optimized User Experience Across Different
+                  Devices
+                </h5>
+              </div>
+            </a>
+          </section>
+        </article>
+        <article class="blog-structure">
+          <section class="blog-post">
+            <a class="hidden-post" href="#">
+              <!-- cover photo -->
+              <img src="/public/images/blog-pic-4.png" alt="blog-pic" />
+              <div class="my-6">
+                <!-- date -->
+                <time class="blog-date" datetime="2022-07-10"
+                  >10 July, 2022</time
+                >
+                <!-- title -->
+                <h5 class="blog-title">
+                  Trends and Innovations: Current Web Design Trends and
+                  Innovations
+                </h5>
+              </div>
+            </a>
+          </section>
+          <section class="blog-post">
+            <a class="hidden-post" href="#">
+              <!-- cover photo -->
+              <img src="/public/images/blog-pic-5.png" alt="blog-pic" />
+              <div class="my-6">
+                <!-- date -->
+                <time class="blog-date" datetime="2022-07-10"
+                  >10 July, 2022</time
+                >
+                <!-- title -->
+                <h5 class="blog-title">
+                  Customer Analytics: Data-Driven Customer Relationship
+                  Management
+                </h5>
+              </div>
+            </a>
+          </section>
+          <section class="blog-post">
+            <a class="hidden-post" href="#">
+              <!-- cover photo -->
+              <img src="/public/images/blog-pic-6.png" alt="blog-pic" />
+              <div class="my-6">
+                <!-- date -->
+                <time class="blog-date" datetime="2022-07-10"
+                  >10 July, 2022</time
+                >
+                <!-- title -->
+                <h5 class="blog-title">
+                  The Influence of Color on UI/UX Design: Emotional Impact
+                </h5>
+              </div>
+            </a>
+          </section>
+        </article>
+        <button class="mb-12 flex justify-center">
+          <a class="btn-anchor" href="#" target="_blank">
+            <p class="pr-2">Load More</p>
+            <div class="btn-icon">
+              <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
+            </div>
+          </a>
+        </button>
       </main>
     </div>
     <script src="/src/components/header.js"></script>
