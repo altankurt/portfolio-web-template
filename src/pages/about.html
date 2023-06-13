@@ -19,14 +19,16 @@
     <div class="relative flex">
       <!-- left side navigation -->
       <nav id="header-component"></nav>
-      <main class="w-screen">
+      <main class="scrollbar-hide w-screen overflow-auto">
         <!-- welcome-section -->
-        <article class="ml-3 flex items-center justify-evenly pb-16 pt-24">
+        <article
+          class="my-16 flex flex-col items-center justify-around xl:flex-row"
+        >
           <!-- presentation -->
-          <article class="flex flex-col text-primary">
-            <section>
-              <h6 class="pb-4 font-bold italic leading-6">Nice to meet you!</h6>
-              <h2 class="font-bold leading-tight">Welcome to...</h2>
+          <article class="mb-8 flex flex-col text-primary xl:mb-0">
+            <section class="ml-4 font-bold sm:ml-0">
+              <h6 class="top-title">Nice to meet you!</h6>
+              <h2 class="main-title">Welcome to...</h2>
             </section>
             <figure>
               <img
@@ -35,23 +37,29 @@
               />
             </figure>
             <section class="flex flex-col items-center justify-center">
-              <h2 class="text-gradient mt-8 font-bold tracking-tighter">
+              <h2
+                class="text-gradient mt-8 text-3xl font-bold tracking-tighter lg:text-4xl 2xl:text-5xl"
+              >
                 JACOB JONES
               </h2>
-              <h5 class="pb-4 pt-3 text-2xl">
+              <h5
+                class="pb-4 pt-3 text-base lg:text-lg xl:text-xl 2xl:text-2xl"
+              >
                 <span class="font-bold italic">Product Designer</span> based in
                 <span class="font-bold italic">London</span>
               </h5>
-              <button class="flex items-end">
+              <button class="flex">
                 <a
-                  class="flex h-6 pr-2 text-lg font-medium underline"
+                  class="flex h-6 text-lg font-medium underline"
                   href="https://drive.google.com/file/d/1WF8_5LCCERIxqSFhkP1RLDG8VSqZf5ur/view?usp=share_link"
                   download="jj-cv.pdf"
                   target="_blank"
                 >
-                  <p class="pr-2">Download CV</p>
+                  <p class="pr-2 text-sm xl:text-base 2xl:text-lg">
+                    Download CV
+                  </p>
                   <div
-                    class="flex h-6 w-6 items-center justify-center bg-black"
+                    class="flex h-4 w-4 items-center justify-center bg-black lg:h-5 lg:w-5 xl:h-6 xl:w-6"
                   >
                     <img
                       src="/public/assets/icons/arrow.svg"
@@ -66,7 +74,7 @@
           <article>
             <!-- contact-info -->
             <section class="border-b-2">
-              <address class="contact-info-address pb-6">
+              <address class="contact-info-address">
                 <button class="contact-info-button">
                   <div class="contact-info-button-div">
                     <img
@@ -87,7 +95,7 @@
                   </a>
                 </button>
               </address>
-              <address class="contact-info-address pb-8">
+              <address class="contact-info-address">
                 <button class="contact-info-button">
                   <div class="contact-info-button-div">
                     <img src="/public/assets/icons/mail.svg" alt="mail-icon" />
@@ -108,25 +116,29 @@
               </address>
             </section>
             <!-- information -->
-            <section class="flex">
-              <div>
+            <section
+              class="flex flex-col items-center justify-between lg:flex-row xl:items-start"
+            >
+              <div
+                class="flex w-56 flex-col items-center sm:w-80 lg:w-64 xl:w-72 xl:items-start"
+              >
                 <div class="information">
-                  <span class="information-span">10+</span>
+                  <span class="information-span items-center">10+</span>
                   <h6 class="information-title">Years<br />experience...</h6>
                 </div>
-                <p class="information-text mr-6 w-76">
-                  Hello there! My name is
-                  <span class="font-medium text-highlight">Jacob Jones</span>. I
-                  am a web designer & developer, and I'm very passionate and
-                  dedicated to my work.
+                <p class="information-text">
+                  Hello there! My name is Jacob Jones. I am a web designer &
+                  developer, and I'm very passionate and dedicated to my work.
                 </p>
               </div>
-              <div>
+              <div
+                class="flex w-56 flex-col items-center sm:w-80 lg:w-64 xl:w-72 xl:items-start"
+              >
                 <div class="information">
                   <span class="information-span">14</span>
                   <h6 class="information-title">Clients<br />Worldwide...</h6>
                 </div>
-                <p class="information-text w-76">
+                <p class="information-text">
                   With 10 + years experience as a professional a graphic
                   designer, I have acquired the skills and knowledge necessary
                   to make your project a success.
@@ -135,14 +147,16 @@
             </section>
             <!-- quotes -->
             <section
-              class="mt-16 flex bg-primary text-xl font-semibold italic leading-8 text-white"
+              class="mt-16 flex w-fit bg-primary text-base font-semibold italic leading-5 text-white md:leading-6 lg:leading-8 xl:text-lg 2xl:text-xl"
             >
               <img
-                class="py-10 pl-10 pr-3"
+                class="py-4 pl-4 pr-3 md:py-6 md:pl-6 lg:py-8 lg:pl-8 xl:py-10 xl:pl-10"
                 src="/public/assets/icons/quotes.svg"
                 alt="quotes-icon"
               />
-              <blockquote class="py-10 pr-10">
+              <blockquote
+                class="py-4 pr-4 md:py-6 md:pr-6 lg:py-8 lg:pr-8 xl:py-10 xl:pr-10"
+              >
                 “Lorem ipsum dolor sit amet, consectetur adipiscing <br />
                 elit. Faucibus sed sit ultrices et sed metus sollicitudin.”
               </blockquote>
@@ -150,12 +164,24 @@
           </article>
         </article>
         <!-- experience -->
-        <article class="bg-gradient mr-52 mt-12 flex justify-evenly text-white">
+        <article
+          class="bg-gradient flex flex-col justify-around text-white xl:flex-row"
+        >
           <!-- exp-content -->
-          <section class="mb-52 mt-30">
-            <h6 class="mb-4 font-semibold italic leading-6">Experience</h6>
-            <h2 class="font-bold leading-tight">MY EXPERIENCE</h2>
-            <p class="mb-12 mt-5 w-80 text-lg leading-7">
+          <section class="mx-8 my-8 xl:mx-0 xl:my-30">
+            <h6
+              class="pb-4 text-sm font-semibold italic leading-6 md:text-base lg:text-lg"
+            >
+              Experience
+            </h6>
+            <h2
+              class="text-3xl font-bold leading-tight lg:text-4xl 2xl:text-5xl"
+            >
+              MY EXPERIENCE
+            </h2>
+            <p
+              class="sm:w-128 w-auto py-4 text-base leading-7 lg:text-lg xl:w-96 2xl:text-xl"
+            >
               Hey there! I'm Jacob Jones, a web designer and developer who's
               passionate and dedicated to my work.
             </p>
@@ -166,7 +192,9 @@
                 download="jj-cv.pdf"
                 target="_blank"
               >
-                <p class="pr-2">Download my resume</p>
+                <p class="pr-2 text-xs md:text-sm lg:text-base xl:text-lg">
+                  Download my resume
+                </p>
                 <div class="btn-icon">
                   <img src="/public/assets/icons/arrow.svg" alt="arrow-icon" />
                 </div>
@@ -174,34 +202,34 @@
             </button>
           </section>
           <!-- exp-list -->
-          <section class="my-30 w-136">
-            <div class="mb-10">
-              <div class="flex justify-between">
+          <section class="my-8 w-auto px-8 xl:my-30 xl:px-0">
+            <div class="pb-8">
+              <div class="flex flex-col justify-between sm:flex-row">
                 <h6 class="experience-job-title">-2018 - Present</h6>
                 <p class="experience-job">-Rolling Thunder</p>
               </div>
               <div class="experience">
-                <p class="mb-5 mt-3">Lead UI/UX Designer</p>
+                <p class="pb-8 pt-3">Lead UI/UX Designer</p>
               </div>
               <div class="experience-border"></div>
             </div>
-            <div class="mb-10">
-              <div class="flex justify-between">
+            <div class="pb-8">
+              <div class="flex flex-col justify-between sm:flex-row">
                 <h6 class="experience-job-title">--2018 - 2010</h6>
                 <p class="experience-job">-Locost Accessories</p>
               </div>
               <div class="experience">
-                <p class="mb-5 mt-3">Senior UI/UX Designer</p>
+                <p class="pb-8 pt-3">Senior UI/UX Designer</p>
               </div>
               <div class="experience-border"></div>
             </div>
-            <div class="mb-10">
-              <div class="flex justify-between">
+            <div class="pb-8">
+              <div class="flex flex-col justify-between sm:flex-row">
                 <h6 class="experience-job-title">-2008 - 2006</h6>
                 <p class="experience-job">-Sagebrush</p>
               </div>
               <div class="experience">
-                <p class="mb-5 mt-3">Junior UI/UX Designer</p>
+                <p class="pb-8 pt-3">Junior UI/UX Designer</p>
               </div>
               <div class="experience-border"></div>
             </div>
