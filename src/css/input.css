@@ -31,22 +31,22 @@
 
 @layer components {
   .content-area {
-    @apply flex w-screen flex-col;
+    @apply scrollbar-hide flex w-screen flex-col overflow-auto;
   }
   .btn-anchor {
-    @apply flex h-12 items-center justify-center bg-primary px-4 text-white lg:h-14 lg:px-6;
+    @apply flex h-12 items-center justify-center bg-primary px-4 text-white xl:h-14 xl:px-6;
   }
   .btn-icon {
     @apply bg-gradient flex h-5 w-5 items-center justify-center lg:h-6 lg:w-6;
   }
   .accordion {
-    @apply mb-10 flex justify-between border-b-2 pb-6;
+    @apply mb-10 flex flex-col justify-between  border-b-2 pb-6 2xl:flex-row;
   }
   .accordion-title {
-    @apply font-bold leading-normal;
+    @apply mr-8 text-xl font-bold leading-normal md:text-2xl lg:text-3xl 2xl:text-3.5xl;
   }
   .accordion-context {
-    @apply flex w-136 justify-between;
+    @apply flex w-auto justify-between lg:w-136;
   }
   .toggle {
     @apply w-136;
@@ -70,7 +70,7 @@
     @apply mx-2 my-0 flex h-9 w-9 items-center justify-center rounded-full border-2 to-primary md:mx-3 md:h-10 md:w-10 xl:mx-0 xl:my-5;
   }
   .contact-info-address {
-    @apply flex text-lg font-bold italic leading-6;
+    @apply flex flex-col items-center justify-between py-2 text-lg font-bold italic leading-6 lg:flex-row lg:py-3;
   }
   .contact-info-button {
     @apply flex h-10 w-56 items-center justify-center italic;
@@ -82,25 +82,25 @@
     @apply flex w-40 text-lg font-bold text-primary;
   }
   .information {
-    @apply mb-5 mr-8 mt-12 flex h-12 w-68;
+    @apply mb-3 mt-8 flex lg:mb-5 lg:mt-12;
   }
   .information-title {
-    @apply font-bold italic leading-5 text-primary;
+    @apply text-lg font-bold italic leading-5 text-primary  2xl:text-xl;
   }
   .information-span {
-    @apply text-gradient pr-3 text-5xl font-bold leading-10;
+    @apply text-gradient pr-3 text-3.5xl  font-bold leading-10 lg:text-4xl 2xl:text-5xl;
   }
   .information-text {
-    @apply text-lg leading-6 text-primary;
+    @apply flex text-base leading-6 text-primary lg:text-lg 2xl:text-xl;
   }
   .experience-job-title {
-    @apply font-bold italic leading-6;
+    @apply text-base font-bold italic leading-6 xl:text-lg 2xl:text-xl;
   }
   .experience-job {
-    @apply text-base font-medium;
+    @apply text-base font-medium xl:text-lg 2xl:text-xl;
   }
   .experience {
-    @apply text-3xl font-bold leading-10;
+    @apply text-xl font-bold leading-10 xl:text-2xl 2xl:text-3xl;
   }
   .experience-border {
     @apply border-b-1 opacity-20;
@@ -109,10 +109,10 @@
     @apply mb-14 ml-28 mt-20 flex flex-col;
   }
   .top-title {
-    @apply pb-4 font-semibold italic leading-6;
+    @apply pb-4 text-sm font-semibold italic leading-6 md:text-base lg:text-lg;
   }
   .main-title {
-    @apply font-bold leading-tight;
+    @apply text-2xl font-bold leading-tight sm:text-3xl lg:text-4xl 2xl:text-5xl;
   }
   .works {
     @apply mr-8 flex w-52 flex-col;
