@@ -21,7 +21,7 @@ function header() {
             >services</a
           >
           <a class="w-fit md:py-1.5 lg:py-2.5" href="/src/pages/works.html">works</a>
-          <a class="w-fit md:py-1.5 lg:py-2.5" href="/src/pages/blogs.html">blogs</a>
+          <a class="w-fit md:py-1.5 lg:py-2.5" href="/src/pages/blog.html">blog</a>
           <a class="w-fit md:py-1.5 lg:py-2.5" href="/src/pages/contact.html"
             >contact</a
           >
