@@ -142,7 +142,7 @@
     @apply mx-48 mb-6 flex justify-between;
   }
   .blog-post {
-    @apply flex w-78.75 flex-col;
+    @apply flex w-78.75 flex-col hover:-rotate-3 hover:opacity-80;
   }
   .blog-date {
     @apply text-lg italic leading-6;
