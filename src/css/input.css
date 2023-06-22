@@ -13,13 +13,13 @@
     @apply text-3.5xl;
   }
   h4 {
-    @apply text-3xl;
+    @apply text-3xl leading-7;
   }
   h5 {
     @apply text-2xl;
   }
   h6 {
-    @apply text-lg;
+    @apply text-lg leading-5;
   }
   input {
     @apply border-b-2 border-white bg-inherit outline-none;
@@ -59,6 +59,9 @@
 @layer utilities {
   .home-contact {
     @apply flex text-sm font-bold md:text-base lg:text-lg;
+  }
+  .button-home-contact {
+    @apply mx-6 flex items-center italic;
   }
   .bg-gradient {
     @apply bg-gradient-to-r from-fuchsia-400 via-red-400 to-amber-400;
@@ -106,7 +109,7 @@
     @apply border-b-1 opacity-20;
   }
   .titles {
-    @apply mb-14 ml-28 mt-20 flex flex-col;
+    @apply mb-8 ml-12 mt-12 flex flex-col sm:ml-20 lg:mt-20 xl:mb-12 xl:ml-24 2xl:mb-14 2xl:ml-28;
   }
   .top-title {
     @apply pb-4 text-sm font-semibold italic leading-6 md:text-base lg:text-lg;
@@ -115,13 +118,25 @@
     @apply text-2xl font-bold leading-tight sm:text-3xl lg:text-4xl 2xl:text-5xl;
   }
   .works {
-    @apply mr-8 flex w-52 flex-col;
+    @apply mr-4 flex w-auto flex-col md:w-52;
   }
   .works-arrow {
     @apply flex h-16 w-16 items-center justify-center;
   }
   .works-section {
-    @apply flex justify-between font-bold;
+    @apply flex flex-col items-center justify-center  font-bold 2xl:flex-row;
+  }
+  .work-section-h6 {
+    @apply text-sm italic lg:text-base 3xl:text-lg;
+  }
+  .work-section-h4 {
+    @apply my-auto text-xl md:text-2xl 2xl:w-32 3xl:w-auto 3xl:text-3xl;
+  }
+  .work-section-a {
+    @apply mx-auto flex flex-col pb-14 sm:w-108 sm:flex-row md:w-auto 2xl:mx-16;
+  }
+  .work-image {
+    @apply h-48 w-64 md:h-52 md:w-68 lg:h-52 lg:w-68;
   }
   .blog-structure {
     @apply mx-48 mb-6 flex justify-between;
